@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A6631751AE05C1C005548E4 /* FeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6631741AE05C1C005548E4 /* FeedTableViewController.m */; };
 		1A6B96721AE03077006A46CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6B96711AE03077006A46CA /* main.m */; };
 		1A6B96751AE03077006A46CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6B96741AE03077006A46CA /* AppDelegate.m */; };
-		1A6B96781AE03077006A46CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6B96771AE03077006A46CA /* ViewController.m */; };
 		1A6B967B1AE03077006A46CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6B96791AE03077006A46CA /* Main.storyboard */; };
 		1A6B967D1AE03077006A46CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A6B967C1AE03077006A46CA /* Images.xcassets */; };
 		1A6B96801AE03077006A46CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A6B967E1AE03077006A46CA /* LaunchScreen.xib */; };
 		1A6B968C1AE03077006A46CA /* TableViewAndTableCellsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6B968B1AE03077006A46CA /* TableViewAndTableCellsTests.m */; };
-		1A6B96981AE03101006A46CA /* FeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6B96971AE03101006A46CA /* FeedTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,21 +27,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A6631731AE05C1C005548E4 /* FeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedTableViewController.h; sourceTree = "<group>"; };
+		1A6631741AE05C1C005548E4 /* FeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewController.m; sourceTree = "<group>"; };
 		1A6B966C1AE03077006A46CA /* TableViewAndTableCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewAndTableCells.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A6B96701AE03077006A46CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A6B96711AE03077006A46CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1A6B96731AE03077006A46CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TableViewAndTableCells/AppDelegate.h; sourceTree = "<group>"; };
 		1A6B96741AE03077006A46CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = TableViewAndTableCells/AppDelegate.m; sourceTree = "<group>"; };
-		1A6B96761AE03077006A46CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = TableViewAndTableCells/ViewController.h; sourceTree = "<group>"; };
-		1A6B96771AE03077006A46CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = TableViewAndTableCells/ViewController.m; sourceTree = "<group>"; };
 		1A6B967A1AE03077006A46CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A6B967C1AE03077006A46CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1A6B967F1AE03077006A46CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1A6B96851AE03077006A46CA /* TableViewAndTableCellsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewAndTableCellsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A6B968A1AE03077006A46CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A6B968B1AE03077006A46CA /* TableViewAndTableCellsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewAndTableCellsTests.m; sourceTree = "<group>"; };
-		1A6B96961AE03101006A46CA /* FeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedTableViewController.h; sourceTree = "<group>"; };
-		1A6B96971AE03101006A46CA /* FeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,10 +121,8 @@
 			children = (
 				1A6B96731AE03077006A46CA /* AppDelegate.h */,
 				1A6B96741AE03077006A46CA /* AppDelegate.m */,
-				1A6B96761AE03077006A46CA /* ViewController.h */,
-				1A6B96771AE03077006A46CA /* ViewController.m */,
-				1A6B96961AE03101006A46CA /* FeedTableViewController.h */,
-				1A6B96971AE03101006A46CA /* FeedTableViewController.m */,
+				1A6631731AE05C1C005548E4 /* FeedTableViewController.h */,
+				1A6631741AE05C1C005548E4 /* FeedTableViewController.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -232,10 +227,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A6B96781AE03077006A46CA /* ViewController.m in Sources */,
 				1A6B96751AE03077006A46CA /* AppDelegate.m in Sources */,
 				1A6B96721AE03077006A46CA /* main.m in Sources */,
-				1A6B96981AE03101006A46CA /* FeedTableViewController.m in Sources */,
+				1A6631751AE05C1C005548E4 /* FeedTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +424,7 @@
 				1A6B96911AE03077006A46CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A6B96921AE03077006A46CA /* Build configuration list for PBXNativeTarget "TableViewAndTableCellsTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +433,7 @@
 				1A6B96941AE03077006A46CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
