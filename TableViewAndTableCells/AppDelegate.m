@@ -17,6 +17,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    
+    // this code combines te first two lines into one line of code.
+    CGRect viewRect = [[UIScreen mainScreen]bounds];
+    // create a UIWindow vis code and Allocate memory for it
+    self.window = [[UIWindow alloc]initWithFrame:viewRect];
+    // adding in code to enable the see the new custome Table View
+    
+    FeedTableViewController *feedTableViewController = [[FeedTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
+    UINavigationController *feedNavController = [[UINavigationController alloc] initWithRootViewController:feedTableViewController];
+    
+    // recieve keyboard and touch events
+    [self.window makeKeyAndVisible];
+    self.window.rootViewController = [feedTableViewController ;
+
     // Override point for customization after application launch.
     return YES;
 }
