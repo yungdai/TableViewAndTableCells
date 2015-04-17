@@ -30,7 +30,7 @@
     
     // recieve keyboard and touch events
     [self.window makeKeyAndVisible];
-    self.window.rootViewController = [feedTableViewController ;
+    self.window.rootViewController = feedTableViewController;
 
     // Override point for customization after application launch.
     return YES;
